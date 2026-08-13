@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="t2">
+  <title id="t2">Online Examination Portal preview graphic</title>
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g2)"/>
+  <g stroke="#ffffff" stroke-opacity="0.06">
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+  </g>
+  <!-- Graduation cap icon -->
+  <g transform="translate(210,120)" fill="#ffffff">
+    <path d="M90 0 L180 36 L90 72 L0 36 Z" fill-opacity="0.9"/>
+    <path d="M40 50 v34 c0 12 22 22 50 22 s50 -10 50 -22 v-34 l-50 20 z" fill-opacity="0.5"/>
+    <line x1="176" y1="36" x2="176" y2="86" stroke="#ffffff" stroke-width="5"/>
+    <circle cx="176" cy="92" r="5"/>
+  </g>
+  <text x="300" y="360" font-family="Poppins, Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">Online Examination Portal</text>
+</svg>

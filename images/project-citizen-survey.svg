@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="t1">
+  <title id="t1">Citizen Survey System preview graphic</title>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g1)"/>
+  <g stroke="#ffffff" stroke-opacity="0.06">
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+  </g>
+  <!-- Clipboard / checklist icon -->
+  <g transform="translate(240,110)" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="10" width="120" height="160" rx="10" fill="#ffffff" fill-opacity="0.05"/>
+    <rect x="35" y="0" width="50" height="24" rx="6" fill="#0a0a0a" stroke-opacity="0.6"/>
+    <line x1="24" y1="60" x2="96" y2="60"/>
+    <line x1="24" y1="90" x2="96" y2="90"/>
+    <line x1="24" y1="120" x2="70" y2="120"/>
+    <path d="M22 46 l6 6 l12 -14" stroke-width="5"/>
+    <path d="M22 76 l6 6 l12 -14" stroke-width="5"/>
+  </g>
+  <text x="300" y="360" font-family="Poppins, Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">Citizen Survey System</text>
+</svg>

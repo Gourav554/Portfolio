@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="t5">
+  <title id="t5">MERN CRUD Application preview graphic</title>
+  <defs>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g5)"/>
+  <g stroke="#ffffff" stroke-opacity="0.06">
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+  </g>
+  <!-- Stacked layers icon (representing MERN stack) -->
+  <g transform="translate(220,110)" fill="#ffffff">
+    <polygon points="80,0 160,30 80,60 0,30" fill-opacity="0.9"/>
+    <polygon points="80,45 160,75 80,105 0,75" fill-opacity="0.6"/>
+    <polygon points="80,90 160,120 80,150 0,120" fill-opacity="0.35"/>
+  </g>
+  <text x="300" y="360" font-family="Poppins, Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">MERN CRUD Application</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="avatarTitle">
+  <title id="avatarTitle">Monogram avatar placeholder for Gourav Jaiswal</title>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#b3b3b3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bgGlow)"/>
+
+  <!-- Decorative concentric rings -->
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Abstract dot grid accent -->
+  <g fill="#ffffff" fill-opacity="0.25">
+    <circle cx="60" cy="60" r="2.5"/>
+    <circle cx="340" cy="60" r="2.5"/>
+    <circle cx="60" cy="340" r="2.5"/>
+    <circle cx="340" cy="340" r="2.5"/>
+  </g>
+
+  <!-- Monogram -->
+  <text x="200" y="238" font-family="Poppins, Arial, sans-serif" font-size="140" font-weight="700" fill="url(#textGrad)" text-anchor="middle">GJ</text>
+</svg>

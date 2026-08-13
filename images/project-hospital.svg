@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="t3">
+  <title id="t3">Hospital Management System preview graphic</title>
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g3)"/>
+  <g stroke="#ffffff" stroke-opacity="0.06">
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+  </g>
+  <!-- Medical cross + heartbeat pulse -->
+  <g transform="translate(255,110)">
+    <rect x="34" y="0" width="22" height="90" rx="6" fill="#ffffff" fill-opacity="0.9"/>
+    <rect x="0" y="34" width="90" height="22" rx="6" fill="#ffffff" fill-opacity="0.9"/>
+  </g>
+  <polyline points="150,260 210,260 230,220 255,290 275,240 300,260 450,260"
+    fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="300" y="360" font-family="Poppins, Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" fill-opacity="0.85" text-anchor="middle">Hospital Management System</text>
+</svg>
